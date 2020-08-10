@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC35037A24772BD5001FFD75 /* planets.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC35037924772BD5001FFD75 /* planets.plist */; };
+		FC77DCCE247DDF1700274D6A /* planetImages in Resources */ = {isa = PBXBuildFile; fileRef = FC77DCCD247DDF1700274D6A /* planetImages */; };
+		FC799B642477164A00F1869C /* instructions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC799B632477164A00F1869C /* instructions.swift */; };
+		FC93231A2475E2A600A47689 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9323192475E2A600A47689 /* AppDelegate.swift */; };
+		FC93231C2475E2A600A47689 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC93231B2475E2A600A47689 /* SceneDelegate.swift */; };
+		FC93231E2475E2A600A47689 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC93231D2475E2A600A47689 /* ViewController.swift */; };
+		FC9323212475E2A600A47689 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC93231F2475E2A600A47689 /* Main.storyboard */; };
+		FC9323232475E2A800A47689 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC9323222475E2A800A47689 /* Assets.xcassets */; };
+		FC9323262475E2A800A47689 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC9323242475E2A800A47689 /* LaunchScreen.storyboard */; };
+		FC93232E2475E91E00A47689 /* planets.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC93232D2475E91E00A47689 /* planets.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC35037924772BD5001FFD75 /* planets.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = planets.plist; path = ../../../../planets.plist; sourceTree = "<group>"; };
+		FC77DCCD247DDF1700274D6A /* planetImages */ = {isa = PBXFileReference; lastKnownFileType = folder; name = planetImages; path = ../../planetImages; sourceTree = "<group>"; };
+		FC799B632477164A00F1869C /* instructions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instructions.swift; sourceTree = "<group>"; };
+		FC9323162475E2A600A47689 /* Solarist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Solarist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC9323192475E2A600A47689 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC93231B2475E2A600A47689 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FC93231D2475E2A600A47689 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC9323202475E2A600A47689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC9323222475E2A800A47689 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC9323252475E2A800A47689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC9323272475E2A800A47689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC93232D2475E91E00A47689 /* planets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = planets.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC9323132475E2A600A47689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC93230D2475E2A600A47689 = {
+			isa = PBXGroup;
+			children = (
+				FC9323182475E2A600A47689 /* Solarist */,
+				FC9323172475E2A600A47689 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC9323172475E2A600A47689 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC9323162475E2A600A47689 /* Solarist.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC9323182475E2A600A47689 /* Solarist */ = {
+			isa = PBXGroup;
+			children = (
+				FC9323192475E2A600A47689 /* AppDelegate.swift */,
+				FC93232D2475E91E00A47689 /* planets.swift */,
+				FC799B632477164A00F1869C /* instructions.swift */,
+				FC35037924772BD5001FFD75 /* planets.plist */,
+				FC93231B2475E2A600A47689 /* SceneDelegate.swift */,
+				FC93231D2475E2A600A47689 /* ViewController.swift */,
+				FC93231F2475E2A600A47689 /* Main.storyboard */,
+				FC77DCCD247DDF1700274D6A /* planetImages */,
+				FC9323222475E2A800A47689 /* Assets.xcassets */,
+				FC9323242475E2A800A47689 /* LaunchScreen.storyboard */,
+				FC9323272475E2A800A47689 /* Info.plist */,
+			);
+			path = Solarist;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC9323152475E2A600A47689 /* Solarist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC93232A2475E2A800A47689 /* Build configuration list for PBXNativeTarget "Solarist" */;
+			buildPhases = (
+				FC9323122475E2A600A47689 /* Sources */,
+				FC9323132475E2A600A47689 /* Frameworks */,
+				FC9323142475E2A600A47689 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Solarist;
+			productName = Solarist;
+			productReference = FC9323162475E2A600A47689 /* Solarist.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC93230E2475E2A600A47689 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = CS50;
+				TargetAttributes = {
+					FC9323152475E2A600A47689 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = FC9323112475E2A600A47689 /* Build configuration list for PBXProject "Solarist" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC93230D2475E2A600A47689;
+			productRefGroup = FC9323172475E2A600A47689 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC9323152475E2A600A47689 /* Solarist */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC9323142475E2A600A47689 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC35037A24772BD5001FFD75 /* planets.plist in Resources */,
+				FC77DCCE247DDF1700274D6A /* planetImages in Resources */,
+				FC9323262475E2A800A47689 /* LaunchScreen.storyboard in Resources */,
+				FC9323232475E2A800A47689 /* Assets.xcassets in Resources */,
+				FC9323212475E2A600A47689 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC9323122475E2A600A47689 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC93231E2475E2A600A47689 /* ViewController.swift in Sources */,
+				FC93231A2475E2A600A47689 /* AppDelegate.swift in Sources */,
+				FC799B642477164A00F1869C /* instructions.swift in Sources */,
+				FC93231C2475E2A600A47689 /* SceneDelegate.swift in Sources */,
+				FC93232E2475E91E00A47689 /* planets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC93231F2475E2A600A47689 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC9323202475E2A600A47689 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC9323242475E2A800A47689 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC9323252475E2A800A47689 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC9323282475E2A800A47689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC9323292475E2A800A47689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC93232B2475E2A800A47689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ULDW9C22Y3;
+				INFOPLIST_FILE = Solarist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VivekPranavamurthi.Solarist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC93232C2475E2A800A47689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ULDW9C22Y3;
+				INFOPLIST_FILE = Solarist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VivekPranavamurthi.Solarist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC9323112475E2A600A47689 /* Build configuration list for PBXProject "Solarist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC9323282475E2A800A47689 /* Debug */,
+				FC9323292475E2A800A47689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC93232A2475E2A800A47689 /* Build configuration list for PBXNativeTarget "Solarist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC93232B2475E2A800A47689 /* Debug */,
+				FC93232C2475E2A800A47689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC93230E2475E2A600A47689 /* Project object */;
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>earth</key>
+	<string>[-0.49703111 -0.80525321 -0.34901147]</string>
+	<key>mercury</key>
+	<string>[-0.28739529  0.16660546  0.11768633]</string>
+	<key>sun</key>
+	<string>[-0.00496544  0.00645464  0.00285908]</string>
+	<key>venus</key>
+	<string>[-0.44325205 -0.52921886 -0.21043642]</string>
+</dict>
+</plist>
